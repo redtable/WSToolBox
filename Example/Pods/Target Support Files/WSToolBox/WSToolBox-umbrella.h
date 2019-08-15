@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NEJsonDataTool.h"
 
 FOUNDATION_EXPORT double WSToolBoxVersionNumber;
 FOUNDATION_EXPORT const unsigned char WSToolBoxVersionString[];

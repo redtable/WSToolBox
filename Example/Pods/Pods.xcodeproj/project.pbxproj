@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		0ECA97BDD91F9ED38CDD245569B20B8C /* Pods-WSToolBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D0E651F17CD8BA96C8F84B90DD3078 /* Pods-WSToolBox_Example-dummy.m */; };
 		18231189F07D4004A8FFA55253702CE2 /* Pods-WSToolBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EAFC66EC7F8E24AEE52F10F2830967 /* Pods-WSToolBox_Tests-dummy.m */; };
-		2661D5A8A36E3FF4DE889710697C6C18 /* WSToolBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19905AF3E1E47188B50514F503725C3B /* WSToolBox-dummy.m */; };
 		2B3A9B5CD71CB905FE1851EE594A2545 /* Pods-WSToolBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E009C96AA57E5CA5465988583018B452 /* Pods-WSToolBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CA26A25AE9651C21DF0EE1EA86757AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		892C5B4510F328B64BD4404B1633DDDA /* WSToolBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB11E840D634A2F224539B8BC35B898F /* WSToolBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5424304FE5CC29B1D5F4FBD2FD2C8DCA /* WSToolBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754AAEB354D5DA68889D6AEDD7D7B3C0 /* WSToolBox-dummy.m */; };
+		7387002AFEAA590DD413749C3061FCF5 /* NEJsonDataTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AF773C28453FD7EAFF70DCD1594A03C1 /* NEJsonDataTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA5ACE09BA48B6EE136F5A9959CDEDC /* Pods-WSToolBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 481729C6074FB0A4ACC75D3B9FF0ECF2 /* Pods-WSToolBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1AD916EF9A2AEFDC51AB0FBDE1ABA62 /* WSToolBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8589C0105D4C045A10C490A732624138 /* WSToolBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4671650153E3D7E34C7CBB5E2AC8D7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B5240CB66C32156935A487A163165588 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AAE5340E11AD2701553E4FFEF9AF95 /* ReplaceMe.m */; };
 		E5C368C270CE3AA1132A4160FA76035B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECFFDF6A81ED7889A7E0E1D408C7CB6F /* NEJsonDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AE34E0E57504B082E7618D4BF0E0DA /* NEJsonDataTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +39,21 @@
 
 /* Begin PBXFileReference section */
 		1211C308074042D56009BE4081216A40 /* Pods_WSToolBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSToolBox_Example.framework; path = "Pods-WSToolBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19905AF3E1E47188B50514F503725C3B /* WSToolBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSToolBox-dummy.m"; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27DCC121B0F7B7377083EA30828AB1E2 /* WSToolBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WSToolBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		296BF5524F47B2F8F125643B3F0DB864 /* Pods-WSToolBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSToolBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39048525B2F30DA4CBA8565DC59F27E5 /* Pods-WSToolBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSToolBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		439C8E73C1D5D3ECBFB3B8281E2A9EE9 /* Pods-WSToolBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSToolBox_Tests-resources.sh"; sourceTree = "<group>"; };
 		472EDF0184CC8BB7AC8BE7153E740BF6 /* Pods_WSToolBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSToolBox_Tests.framework; path = "Pods-WSToolBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481729C6074FB0A4ACC75D3B9FF0ECF2 /* Pods-WSToolBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSToolBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		541E2EF1F7C3BF9446308A47BC3A10FF /* WSToolBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSToolBox.xcconfig; sourceTree = "<group>"; };
+		59AE34E0E57504B082E7618D4BF0E0DA /* NEJsonDataTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NEJsonDataTool.m; path = WSToolBox/Classes/NEJsonDataTool.m; sourceTree = "<group>"; };
 		5A01BF2E96DF076E9E62DE1771161C18 /* Pods-WSToolBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSToolBox_Example.modulemap"; sourceTree = "<group>"; };
+		5C4D1EEE6C71EDD433F6B0A058EDFD93 /* WSToolBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSToolBox-prefix.pch"; sourceTree = "<group>"; };
 		64316E917FE78E7339C7760C62B0C8D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F6DDC19D84D0F64C42E85942BD20180 /* WSToolBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSToolBox-prefix.pch"; sourceTree = "<group>"; };
-		80ECB3372039D7D1C4E5D3B02A11FEE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754AAEB354D5DA68889D6AEDD7D7B3C0 /* WSToolBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSToolBox-dummy.m"; sourceTree = "<group>"; };
+		782668C4F42E34E9A16F8B6379F8ACA8 /* WSToolBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSToolBox.modulemap; sourceTree = "<group>"; };
+		8589C0105D4C045A10C490A732624138 /* WSToolBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSToolBox-umbrella.h"; sourceTree = "<group>"; };
 		86C74CF8A3492C3AF5870612080E489A /* Pods-WSToolBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSToolBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88EAFC66EC7F8E24AEE52F10F2830967 /* Pods-WSToolBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSToolBox_Tests-dummy.m"; sourceTree = "<group>"; };
 		8CAFB9DAD0F15A20BAAEFC1955167A6D /* Pods-WSToolBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSToolBox_Tests.modulemap"; sourceTree = "<group>"; };
@@ -59,17 +62,16 @@
 		9AF3E60ACB023C3148A4378836120FCF /* Pods-WSToolBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSToolBox_Example-resources.sh"; sourceTree = "<group>"; };
 		9D44C6FB01788723A9FFB2F9EEC963D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3EEC0F64938DD4359C83858949FDA55 /* Pods-WSToolBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSToolBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A5AAE5340E11AD2701553E4FFEF9AF95 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WSToolBox/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AF773C28453FD7EAFF70DCD1594A03C1 /* NEJsonDataTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NEJsonDataTool.h; path = WSToolBox/Classes/NEJsonDataTool.h; sourceTree = "<group>"; };
 		BC7D5C92DF7B0217B58CF8EB965C56C5 /* Pods-WSToolBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSToolBox_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C074CE51B8D191421B20B0D2295A2F67 /* WSToolBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSToolBox.xcconfig; sourceTree = "<group>"; };
+		CAB7635D857DEF175A92775D29293519 /* WSToolBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WSToolBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDA8025733E9B931718BE048455E9411 /* Pods-WSToolBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSToolBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D09786C7D671BED714E2EB8D493A2728 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D106DFB819B089EC9209DF71F7AC6200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35455087E34AD4F699650F9365EE739 /* Pods-WSToolBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSToolBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D7A0B974DAAD91A9E3968F396623B1D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DB11E840D634A2F224539B8BC35B898F /* WSToolBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSToolBox-umbrella.h"; sourceTree = "<group>"; };
 		E009C96AA57E5CA5465988583018B452 /* Pods-WSToolBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSToolBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6C4021B250750F1F1F1DEC45016CB60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EEF6F5E1EE5BF1C18118F083948866CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F1886446A8A62025A8840002946F2F54 /* Pods-WSToolBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSToolBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3DA960E3BCAACEEE187093FEBDBD4DA /* WSToolBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSToolBox.modulemap; sourceTree = "<group>"; };
 		F639B36E2738F9F001BCC62F69FB8A1D /* WSToolBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSToolBox.framework; path = WSToolBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D0E651F17CD8BA96C8F84B90DD3078 /* Pods-WSToolBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSToolBox_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,36 +141,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		53D6554EA56C1F6CDC0EFD16D86183FD /* WSToolBox */ = {
+		57565DAC77F8776A2B5685CFFC2BEEC1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A5AAE5340E11AD2701553E4FFEF9AF95 /* ReplaceMe.m */,
-				6734AE53633FC9161D800893BEE71700 /* Pod */,
-				A79808BB9D22F5ED7636F06FD8C28870 /* Support Files */,
+				57CD8E176E724FB7035885342D01934D /* WSToolBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		57CD8E176E724FB7035885342D01934D /* WSToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				AF773C28453FD7EAFF70DCD1594A03C1 /* NEJsonDataTool.h */,
+				59AE34E0E57504B082E7618D4BF0E0DA /* NEJsonDataTool.m */,
+				EC407982E3772D52A1C04A43BCD7BED1 /* Pod */,
+				777E4C345ECD1D0A307ACA4A4B207854 /* Support Files */,
 			);
 			name = WSToolBox;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		6734AE53633FC9161D800893BEE71700 /* Pod */ = {
+		777E4C345ECD1D0A307ACA4A4B207854 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D09786C7D671BED714E2EB8D493A2728 /* LICENSE */,
-				D7A0B974DAAD91A9E3968F396623B1D3 /* README.md */,
-				27DCC121B0F7B7377083EA30828AB1E2 /* WSToolBox.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A79808BB9D22F5ED7636F06FD8C28870 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80ECB3372039D7D1C4E5D3B02A11FEE2 /* Info.plist */,
-				F3DA960E3BCAACEEE187093FEBDBD4DA /* WSToolBox.modulemap */,
-				C074CE51B8D191421B20B0D2295A2F67 /* WSToolBox.xcconfig */,
-				19905AF3E1E47188B50514F503725C3B /* WSToolBox-dummy.m */,
-				6F6DDC19D84D0F64C42E85942BD20180 /* WSToolBox-prefix.pch */,
-				DB11E840D634A2F224539B8BC35B898F /* WSToolBox-umbrella.h */,
+				D106DFB819B089EC9209DF71F7AC6200 /* Info.plist */,
+				782668C4F42E34E9A16F8B6379F8ACA8 /* WSToolBox.modulemap */,
+				541E2EF1F7C3BF9446308A47BC3A10FF /* WSToolBox.xcconfig */,
+				754AAEB354D5DA68889D6AEDD7D7B3C0 /* WSToolBox-dummy.m */,
+				5C4D1EEE6C71EDD433F6B0A058EDFD93 /* WSToolBox-prefix.pch */,
+				8589C0105D4C045A10C490A732624138 /* WSToolBox-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WSToolBox";
@@ -204,7 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				FE4A40510AF240D8EC92381310365AEC /* Development Pods */,
+				57565DAC77F8776A2B5685CFFC2BEEC1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				26F7CA64953C42857D007E1B62467CA1 /* Products */,
 				3BAA635B166400B3CA2ECB4640DE9614 /* Targets Support Files */,
@@ -219,12 +220,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE4A40510AF240D8EC92381310365AEC /* Development Pods */ = {
+		EC407982E3772D52A1C04A43BCD7BED1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				53D6554EA56C1F6CDC0EFD16D86183FD /* WSToolBox */,
+				E6C4021B250750F1F1F1DEC45016CB60 /* LICENSE */,
+				EEF6F5E1EE5BF1C18118F083948866CB /* README.md */,
+				CAB7635D857DEF175A92775D29293519 /* WSToolBox.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,19 +241,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62290A049C7742B301033F77F4FE3827 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				892C5B4510F328B64BD4404B1633DDDA /* WSToolBox-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		97C7F8454A1D3E0F16A88C90A237D02A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2B3A9B5CD71CB905FE1851EE594A2545 /* Pods-WSToolBox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4300AA7D3BE855B361F08CFAB4379A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7387002AFEAA590DD413749C3061FCF5 /* NEJsonDataTool.h in Headers */,
+				A1AD916EF9A2AEFDC51AB0FBDE1ABA62 /* WSToolBox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +284,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16C30159C2F46498B9DF63769EFF454B /* Build configuration list for PBXNativeTarget "WSToolBox" */;
 			buildPhases = (
-				62290A049C7742B301033F77F4FE3827 /* Headers */,
-				B2031FBAAD9ED5B45BAEBC1BE0318F15 /* Sources */,
+				F4300AA7D3BE855B361F08CFAB4379A1 /* Headers */,
+				94F444AE2D0169883F7B3BCA2D3AC2C4 /* Sources */,
 				3BDB6AEFDD8D322BF815C6C6AC49CC4F /* Frameworks */,
 				988619156936D54C7207487F26E80F5A /* Resources */,
 			);
@@ -374,12 +378,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2031FBAAD9ED5B45BAEBC1BE0318F15 /* Sources */ = {
+		94F444AE2D0169883F7B3BCA2D3AC2C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5240CB66C32156935A487A163165588 /* ReplaceMe.m in Sources */,
-				2661D5A8A36E3FF4DE889710697C6C18 /* WSToolBox-dummy.m in Sources */,
+				ECFFDF6A81ED7889A7E0E1D408C7CB6F /* NEJsonDataTool.m in Sources */,
+				5424304FE5CC29B1D5F4FBD2FD2C8DCA /* WSToolBox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +611,7 @@
 		};
 		94214B1A9231A72BB419580EBF4DC270 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C074CE51B8D191421B20B0D2295A2F67 /* WSToolBox.xcconfig */;
+			baseConfigurationReference = 541E2EF1F7C3BF9446308A47BC3A10FF /* WSToolBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -704,7 +708,7 @@
 		};
 		C19CAC5EC66C5156035B5545A2E185BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C074CE51B8D191421B20B0D2295A2F67 /* WSToolBox.xcconfig */;
+			baseConfigurationReference = 541E2EF1F7C3BF9446308A47BC3A10FF /* WSToolBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -22,7 +22,7 @@ pod 'WSToolBox'
 
 ## Author
 
-redtable, wangsen8@xdf.cn
+w9redtable@163.com
 
 ## License
 

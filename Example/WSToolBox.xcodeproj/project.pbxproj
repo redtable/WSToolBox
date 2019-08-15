@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3340D7B93109E38F1521F10A /* WSToolBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WSToolBox.podspec; path = ../WSToolBox.podspec; sourceTree = "<group>"; };
-		3412F3A7E03F404EA3CF5534 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3340D7B93109E38F1521F10A /* WSToolBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSToolBox.podspec; path = ../WSToolBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3412F3A7E03F404EA3CF5534 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		575C21252B8ECF1A6CF575BE /* Pods-WSToolBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSToolBox_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSToolBox_Example/Pods-WSToolBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE2994D26B810371353EFA0 /* Pods-WSToolBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSToolBox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSToolBox_Example/Pods-WSToolBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WSToolBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSToolBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97A3C4AC4A310FD43D3E93F2 /* Pods_WSToolBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSToolBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD4D415EF50981DD1998C779 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD4D415EF50981DD1998C779 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C69DA396384CECD4866D0FB3 /* Pods_WSToolBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSToolBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14E1FD5F44DF6855E24CA9A /* Pods-WSToolBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSToolBox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSToolBox_Tests/Pods-WSToolBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8E2CDF55CF9DFE6455B5440 /* Pods-WSToolBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSToolBox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSToolBox_Tests/Pods-WSToolBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };

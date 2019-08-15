@@ -1,0 +1,22 @@
+{
+  "name": "WSToolBox",
+  "version": "0.1.0",
+  "summary": "A short description of WSToolBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/redtable/WSToolBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "redtable": "wangsen8@xdf.cn"
+  },
+  "source": {
+    "git": "https://github.com/redtable/WSToolBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WSToolBox/Classes/**/*"
+}

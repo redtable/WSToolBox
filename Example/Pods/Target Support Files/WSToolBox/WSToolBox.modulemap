@@ -1,0 +1,6 @@
+framework module WSToolBox {
+  umbrella header "WSToolBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

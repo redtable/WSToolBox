@@ -1,0 +1,16 @@
+PODS:
+  - WSToolBox (0.1.0)
+
+DEPENDENCIES:
+  - WSToolBox (from `../`)
+
+EXTERNAL SOURCES:
+  WSToolBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSToolBox: 46d2aaa1cf8e7a10d88e7e1a5d51a5a27bd58997
+
+PODFILE CHECKSUM: d1f5950664968ca3472b465e6dffb470b3c29c02
+
+COCOAPODS: 1.5.3

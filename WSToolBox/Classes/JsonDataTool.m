@@ -1,14 +1,14 @@
 //
-//  NEJsonDataTool.m
-//  Student_iPad
+//  JsonDataTool.m
+//  ttttttt
 //
-//  Created by WangSen on 2019/7/1.
-//  Copyright © 2019 liang. All rights reserved.
+//  Created by WangSen on 2019/8/15.
+//  Copyright © 2019 sen wang. All rights reserved.
 //
 
-#import "NEJsonDataTool.h"
+#import "JsonDataTool.h"
 
-@implementation NEJsonDataTool
+@implementation JsonDataTool
 
 #pragma mark - Check
 + (BOOL)stringAvailable:(id)obj {
@@ -38,56 +38,50 @@
 #pragma mark -
 + (NSMutableDictionary *)getDictionaryInDictionary:(NSDictionary *)dic forKey:(NSString *)key {
     
-    if (Dictionary(dic) && [[dic objectForKey:key] isKindOfClass:[NSDictionary class]] && ([dic objectForKey:key] != nil)) {
+    if (Dictionary(dic) && [dic objectForKey:key] && [[dic objectForKey:key] isKindOfClass:[NSDictionary class]]) {
         return [NSMutableDictionary dictionaryWithDictionary:[dic objectForKey:key]];
-    } else {
-        return [NSMutableDictionary dictionaryWithCapacity:1];
     }
+    return [NSMutableDictionary new];
 }
 
 + (BOOL)getBoolInDictionary:(NSDictionary *)dic forKey:(NSString *)key {
     
-    if (Dictionary(dic) && [[dic objectForKey:key] isKindOfClass:[NSNumber class]] && ([dic objectForKey:key] != nil)) {
+    if (Dictionary(dic) && [dic objectForKey:key] && [[dic objectForKey:key] isKindOfClass:[NSNumber class]]) {
         return [[dic objectForKey:key] boolValue];
-    } else {
-        return NO;
     }
+    return NO;
 }
 
 + (NSMutableArray *)getArrayInDictionary:(NSDictionary *)dic forKey:(NSString *)key {
     
-    if (Dictionary(dic) && [[dic objectForKey:key] isKindOfClass:[NSArray class]] && ([dic objectForKey:key] != nil)) {
+    if (Dictionary(dic) && [dic objectForKey:key] && [[dic objectForKey:key] isKindOfClass:[NSArray class]]) {
         return [NSMutableArray arrayWithArray:[dic objectForKey:key]];
-    } else {
-        return [NSMutableArray arrayWithCapacity:1];
     }
+    return [NSMutableArray arrayWithCapacity:1];
 }
 
 + (NSInteger)getIntegerInDictionary:(NSDictionary *)dic forKey:(NSString *)key {
     
-    if (Dictionary(dic) && [[dic objectForKey:key] isKindOfClass:[NSNumber class]] && ([dic objectForKey:key] != nil)) {
+    if (Dictionary(dic) && [dic objectForKey:key] && [[dic objectForKey:key] isKindOfClass:[NSNumber class]]) {
         return [[dic objectForKey:key]integerValue];
-    } else {
-        return 0;
     }
+    return 0;
 }
 
 + (CGFloat)getFloatInDictionary:(NSDictionary *)dic forKey:(NSString *)key {
     
-    if (Dictionary(dic) && [[dic objectForKey:key] isKindOfClass:[NSNumber class]] && ([dic objectForKey:key] != nil)) {
+    if (Dictionary(dic) && [dic objectForKey:key] && [[dic objectForKey:key] isKindOfClass:[NSNumber class]]) {
         return [[dic objectForKey:key]floatValue];
-    } else {
-        return 0;
     }
+    return 0;
 }
 
 + (NSString *)getStringInDictionary:(NSDictionary *)dic forKey:(NSString *)key {
     
-    if (Dictionary(dic) && [[dic objectForKey:key] isKindOfClass:[NSString class]] && ([dic objectForKey:key] != nil)) {
+    if (Dictionary(dic) && [dic objectForKey:key] && [[dic objectForKey:key] isKindOfClass:[NSString class]]) {
         return [dic objectForKey:key];
-    } else {
-        return [NSString stringWithFormat:@""];
     }
+    return [NSString stringWithFormat:@""];
 }
 
 @end
